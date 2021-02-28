@@ -1,0 +1,15 @@
+C:\Users\studia\source\repos\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.csprojAssemblyReference.cache
+C:\Users\studia\source\repos\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.AssemblyInfoInputs.cache
+C:\Users\studia\source\repos\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.AssemblyInfo.cs
+C:\Users\studia\source\repos\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.exe
+C:\Users\studia\source\repos\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.deps.json
+C:\Users\studia\source\repos\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.runtimeconfig.json
+C:\Users\studia\source\repos\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.runtimeconfig.dev.json
+C:\Users\studia\source\repos\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.dll
+C:\Users\studia\source\repos\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\CodeWars.pdb
+C:\Users\studia\source\repos\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.dll
+C:\Users\studia\source\repos\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.pdb
+C:\Users\studia\source\repos\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.genruntimeconfig.cache
+C:\Users\studia\source\repos\CodeWars\CodeWars\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\studia\source\repos\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.csproj.CopyComplete
+C:\Users\studia\source\repos\CodeWars\CodeWars\obj\Debug\netcoreapp3.1\CodeWars.csproj.CoreCompileInputs.cache

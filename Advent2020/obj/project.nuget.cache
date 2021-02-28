@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cdHeBHcU7bIbc9C45PRhM7ZuVUQGqwGqXEpMEDzYTQSq/5+Ou4IPdZ3Xdj10KQc2IykUyipAWH8mOIypRY2LfQ==",
+  "success": true,
+  "projectFilePath": "G:\\STUDIA\\AdventOfCode\\Advent2020\\Advent2020.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kwiec\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+G:\STUDIA\AdventOfCode\Advent2020\bin\Debug\netcoreapp3.1\Advent2020.exe
+G:\STUDIA\AdventOfCode\Advent2020\bin\Debug\netcoreapp3.1\Advent2020.deps.json
+G:\STUDIA\AdventOfCode\Advent2020\bin\Debug\netcoreapp3.1\Advent2020.runtimeconfig.json
+G:\STUDIA\AdventOfCode\Advent2020\bin\Debug\netcoreapp3.1\Advent2020.runtimeconfig.dev.json
+G:\STUDIA\AdventOfCode\Advent2020\bin\Debug\netcoreapp3.1\Advent2020.dll
+G:\STUDIA\AdventOfCode\Advent2020\bin\Debug\netcoreapp3.1\Advent2020.pdb
+G:\STUDIA\AdventOfCode\Advent2020\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\STUDIA\AdventOfCode\Advent2020\obj\Debug\netcoreapp3.1\Advent2020.csprojAssemblyReference.cache
+G:\STUDIA\AdventOfCode\Advent2020\obj\Debug\netcoreapp3.1\Advent2020.AssemblyInfoInputs.cache
+G:\STUDIA\AdventOfCode\Advent2020\obj\Debug\netcoreapp3.1\Advent2020.AssemblyInfo.cs
+G:\STUDIA\AdventOfCode\Advent2020\obj\Debug\netcoreapp3.1\Advent2020.csproj.CoreCompileInputs.cache
+G:\STUDIA\AdventOfCode\Advent2020\obj\Debug\netcoreapp3.1\Advent2020.csproj.CopyComplete
+G:\STUDIA\AdventOfCode\Advent2020\obj\Debug\netcoreapp3.1\Advent2020.dll
+G:\STUDIA\AdventOfCode\Advent2020\obj\Debug\netcoreapp3.1\Advent2020.pdb
+G:\STUDIA\AdventOfCode\Advent2020\obj\Debug\netcoreapp3.1\Advent2020.genruntimeconfig.cache
