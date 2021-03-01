@@ -20,23 +20,47 @@ namespace CodeWars
         public static void Main()
         {
             string filePath = @"G:\STUDIA\AdventOfCode\Advent2020\input.txt";
-
+            string a= "mem[49377]";
+            int  numericPhone = int.Parse(a.Where(Char.IsDigit).ToArray());
             System.IO.StreamReader file =
                 new System.IO.StreamReader(filePath);
             var input = File.ReadAllLines(filePath).ToList();
-            var buses = input[1].Split(",")
-                      .Select(x => x =="x" ? 1 : Convert.ToInt32(x)).ToList();
-            long time = 0;
-            long step = buses[0];
-            for(int i = 1; i< buses.Count; i++)
+            Dictionary<long, long> memory = new Dictionary<long, long>();
+            Dictionary<int, string> mask = new Dictionary<int, string>();
+            foreach (var line in input)
             {
-                var bus = buses[i];
+                if (line.Contains("mask"))
+                {
+                    var li = line.Split(" = ").ToList();
+                    string newMask = li[1];
+                    mask.Clear();
+                    for(int i = 0; i< newMask.Count();i++)
+                    {
+                        if (newMask[i] != 'X')
+                            mask.Add(i, newMask[i].ToString());
+                    }
+                }
+                else
+                {
+                    var li = line.Split(" = ").ToList();
+                    long address = int.Parse(li[0].Where(Char.IsDigit).ToArray());
+                    long value = long.Parse(li[1]);
+                    string valueString = BinaryExt.ToBinary(value);
+                   foreach(var el in mask)
+                    {
+                        valueString = valueString.Remove(el.Key,1).Insert(el.Key, el.Value);
+                    }
+                     long value2 = Convert.ToInt64(valueString, 2);
 
-                while ((time + i) % bus != 0)
-                    time += step;
 
-                step *= bus;
+                    if (memory.ContainsKey(address))
+                        memory[address] = value2;
+                    else
+                        memory.Add(address, value2);
+                }
             }
+            var sum = memory.Sum(x=>x.Value);
+            long sum2 = memory.Values.Sum();
             file.Close();
         }
         public static void part1()
@@ -69,6 +93,30 @@ namespace CodeWars
             file.Close();
         }
 
+    }
+    public static class BinaryExt
+    {
+        public static string ToBinary(this long number, int bitsLength = 36)
+        {
+            return NumberToBinary(number, bitsLength);
+        }
+
+        public static string NumberToBinary(long number, int bitsLength = 36)
+        {
+            string result = Convert.ToString(number, 2).PadLeft(bitsLength, '0');
+
+            return result;
+        }
+
+        public static int FromBinaryToInt(this string binary)
+        {
+            return BinaryToInt(binary);
+        }
+
+        public static int BinaryToInt(string binary)
+        {
+            return Convert.ToInt32(binary, 2);
+        }
     }
 }
 

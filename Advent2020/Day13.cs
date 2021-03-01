@@ -14,7 +14,7 @@ namespace Advent2020
 {
     class Day13
     {
-            public static void Main()
+            public static void solve()
             {
                 string filePath = @"G:\STUDIA\AdventOfCode\Advent2020\input.txt";
 
@@ -69,6 +69,3 @@ namespace Advent2020
         }
     }
 
-
-}
-}
